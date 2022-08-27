@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    /* width: 80vw; */
+    margin: auto;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    overflow-x: hidden;
+    color: var(--black);
+    height: 100%;
+    scroll-behavior: smooth
+}
+::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+h1, h2, h3, h4, h5, h6{
+    /* color: var(--black); */
+}
+
+select {
+    padding: 0.4em;
+    min-width: 26%;
+    font-family: var(--roboto);
+    background-color: var(--gray);
+    color: var(--black);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn {
+    font-family: var(--roboto);
+    border: none;
+    width: 49%;
+    padding: 0.5em;
+    font-size: 0.8em;
+    cursor: pointer;
+}

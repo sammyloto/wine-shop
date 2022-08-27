@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "cross-env NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "cross-env NODE_ENV=development vue-cli-service serve"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "core-js": "^3.8.3",
+    "cross-env": "^7.0.3",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.29",
     "vue": "^3.2.13",
+    "vue-final-modal": "^3.4.4",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
   },
