@@ -1,0 +1,21 @@
+:root{
+    /* Theme Colors */
+    --white: #fff;
+    --black: #000000;
+    --off-black: #474747;
+    --off-black-hover: #5c5858;
+    --gray: #D3D3D3;
+    --light-gray: #ededed;
+    --gray-hover: #bbbaba;
+    --dark-gray: #a8a8a8;
+    --text-gray: #535353;
+    --red: #ca4646;
+    --transparent-white: rgba(255, 255, 255, 0.2);
+    --transparent-gray: rgba(221, 221, 221, 0.623);
+    --transparent-dark: rgba(0, 0, 0, .2);
+
+    /* Typography */
+    --iowan: "iowan-old-style-black-bt";
+    --amiri: "Amiri";
+    --roboto: "Roboto";
+}
