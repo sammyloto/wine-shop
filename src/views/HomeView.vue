@@ -209,6 +209,12 @@ export default {
         },
 
         addToCart(itemQuantityInfo) {
+            // eslint-disable-next-line no-restricted-globals
+            if (isNaN(itemQuantityInfo.bottleQuantity) || isNaN(itemQuantityInfo.caseQuantity)) {
+                this.invalidInputMessage('Value must be a number.');
+                return;
+            }
+
             if (itemQuantityInfo.bottleQuantity <= 0 && itemQuantityInfo.caseQuantity <= 0) {
                 this.invalidInputMessage('Add valid a number.');
                 return;
