@@ -1,6 +1,8 @@
 <template>
     <header>
-        <h1>Wine Shop</h1>
+        <h1>
+            <router-link to="/"> Wine Shop </router-link>
+        </h1>
         <span>wineshop.com</span>
     </header>
 </template>
@@ -23,6 +25,15 @@ header {
 
 h1 {
   font-family: var(--iowan);
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--off-black);
 }
 
 span {
